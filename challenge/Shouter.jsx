@@ -1,7 +1,7 @@
 import { useState} from "react";
 
 export default function Shouter() {
-    const [ message, setMessage ] = useState("");
+    const [message, setMessage] = useState("");
     function update (e) {
         setMessage(e.target.value);
     }
