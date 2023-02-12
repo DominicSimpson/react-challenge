@@ -1,9 +1,6 @@
-function Greeting (name) {
-    const Greeting name = "oli";
-    const title = <p>Hello {Greeting.name}</p>;
+export default function Greeting ({ name }) {
+    return <p>Hello {name}</p>;
 }
 
-Greeting();
 
-export default Greeting();
 
